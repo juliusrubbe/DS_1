@@ -22,7 +22,7 @@ Leider ist der Immobilienscoutdatensatz zu groß für github. Deswegen muss der 
 Für den R-Code müssen folgende Bibliotheken installiert werden:
 Dazu einfach den folgenden Codesnipet ausführen
 ```R
-install.packages(c("stringr", "data.table","dplyr", "tidyverse", "magrittr", "openxlsx", "sf")
+install.packages(c("stringr", "data.table","dplyr", "tidyverse", "magrittr", "openxlsx", "sf"))
 ```
 Die Bibliotheken für Python sind in der requirements.txt zu finden. Wichtig: Python 3 muss in der Version 3.6.x vorliegen.
 Um die Bibliotheken zu installieren kann der folgende Codesnipet ausgeführt werden.
