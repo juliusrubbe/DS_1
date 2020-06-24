@@ -1,0 +1,76 @@
+06/15/2020 05:48:17 PM - INFO - ***Evolving 10 generations with population 25***
+06/15/2020 05:48:17 PM - INFO - ***Doing generation 1 of 10***
+06/15/2020 05:49:00 PM - INFO - ***Evolving 10 generations with population 25***
+06/15/2020 05:49:00 PM - INFO - ***Doing generation 1 of 10***
+06/15/2020 05:53:19 PM - INFO - ***Evolving 10 generations with population 25***
+06/15/2020 05:53:19 PM - INFO - ***Doing generation 1 of 10***
+06/15/2020 08:05:20 PM - INFO - Generation average: 50.32%
+06/15/2020 08:05:20 PM - INFO - --------------------------------------------------------------------------------
+06/15/2020 08:05:20 PM - INFO - ***Doing generation 2 of 10***
+06/15/2020 08:41:59 PM - INFO - Generation average: 52.79%
+06/15/2020 08:41:59 PM - INFO - --------------------------------------------------------------------------------
+06/15/2020 08:41:59 PM - INFO - ***Doing generation 3 of 10***
+06/15/2020 09:38:20 PM - INFO - Generation average: 53.11%
+06/15/2020 09:38:20 PM - INFO - --------------------------------------------------------------------------------
+06/15/2020 09:38:20 PM - INFO - ***Doing generation 4 of 10***
+06/15/2020 10:45:39 PM - INFO - Generation average: 53.80%
+06/15/2020 10:45:39 PM - INFO - --------------------------------------------------------------------------------
+06/15/2020 10:45:39 PM - INFO - ***Doing generation 5 of 10***
+06/15/2020 11:25:04 PM - INFO - Generation average: 54.27%
+06/15/2020 11:25:04 PM - INFO - --------------------------------------------------------------------------------
+06/15/2020 11:25:04 PM - INFO - ***Doing generation 6 of 10***
+06/16/2020 12:11:39 AM - INFO - Generation average: 54.45%
+06/16/2020 12:11:39 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 12:11:39 AM - INFO - ***Doing generation 7 of 10***
+06/16/2020 01:07:29 AM - INFO - Generation average: 54.45%
+06/16/2020 01:07:29 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 01:07:29 AM - INFO - ***Doing generation 8 of 10***
+06/16/2020 01:56:00 AM - INFO - Generation average: 54.62%
+06/16/2020 01:56:00 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 01:56:00 AM - INFO - ***Doing generation 9 of 10***
+06/16/2020 02:30:19 AM - INFO - Generation average: 54.56%
+06/16/2020 02:30:19 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 02:30:19 AM - INFO - ***Doing generation 10 of 10***
+06/16/2020 03:24:02 AM - INFO - Generation average: 54.52%
+06/16/2020 03:24:02 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 03:24:02 AM - INFO - --------------------------------------------------------------------------------
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.98%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.92%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.86%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.85%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.76%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.74%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.74%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.72%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.71%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.68%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.67%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.64%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'relu', 'optimizer': 'adagrad'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.63%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.63%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.61%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.60%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.58%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.43%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'nadam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.37%
+06/16/2020 03:24:02 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+06/16/2020 03:24:02 AM - INFO - Network accuracy: 54.28%
