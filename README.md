@@ -1,7 +1,10 @@
 # Data Science 1 Projekt
 ### Von Julius Rubbe, Frederik Hering und Timo Wehner
-Eine Übersicht über die optimierten Algorithmen kann in Overview.ipynb gefunden werden. Hierbei ist auch unser Vorgehen genau beschrieben und jeweils der Code bereits ausgeführt - wodurch die Ergebnisse sofort in einer aufbereiten Form ersichtlich sind. Im Verzeichnis data_preperation sind die Datenaufbereitungsskripte und die Datenbasis zu finden.
-***
+Eine Übersicht über die optimierten Algorithmen kann in Overview.ipynb gefunden werden. Hierbei ist auch unser Vorgehen genau beschrieben und jeweils der Code bereits ausgeführt - wodurch die Ergebnisse sofort in einer aufbereiten Form ersichtlich sind. 
+Im Verzeichnis data_preperation sind die Datenaufbereitungsskripte und die Datenbasis zu finden. Hier wurde R für die Implementierung verwendet, da wir ein technologieunabhängiges Team sind und R sich besonders gut für das Aufbereiten von Daten eignet.
+Da die Implementierung des genetischen Algorithmus komplex war, ist diese im Ordner Neural_network_optimization zu finden. Hier muss erwähnt werden, dass ein Großteil des Optimierers von https://github.com/harvitronix/neural-network-genetic-algorithm stammt.
+Die Optimierungsschritte für KNN und GDB sind in den jeweiligen Dateien im Hauptverzeichnis zu finden.
+
 ## Wichtige Information
 Leider ist der Immobilienscoutdatensatz zu groß für github. Deswegen muss der Datensatz händisch von https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany heruntergladen und in das verzeichnis data_preperation/data eingefügt werden.
 
@@ -25,5 +28,5 @@ Die Bibliotheken für Python sind in der requirements.txt zu finden. Wichtig: Py
 Um die Bibliotheken zu installieren kann der folgende Codesnipet ausgeführt werden.
 
 ```Python
-pip3 install requierements.txt -R 
+pip3 install requierements.txt -r
 ```
