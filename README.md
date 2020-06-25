@@ -7,6 +7,7 @@ Die Optimierungsschritte für KNN und GDB sind in den jeweiligen Dateien im Haup
 
 ## Wichtige Information
 Leider ist der Immobilienscoutdatensatz zu groß für github. Deswegen muss der Datensatz händisch von https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany heruntergladen und in das verzeichnis data_preperation/data eingefügt werden.
+Die Optimierungsskripte für das NN und den GBD wurden auf einer Microsoft Azure VM mit 14Gb Arbeitsspeicher ausgeführt und sind mehrere Stunden lang gelaufen.
 
 ## Kurze Übersicht der Datenquellen
 | Name          | URL           |
@@ -17,6 +18,8 @@ Leider ist der Immobilienscoutdatensatz zu groß für github. Deswegen muss der 
 | BIP Statistik | https://www.regionalstatistik.de/genesis//online/data?operation=table&code=82111-01-05-4&levelindex=0&levelid=1593015985767    |  
 | Einkommensstatistik | https://www.regionalstatistik.de/genesis//online/data?operation=table&code=82411-01-03-4&levelindex=0&levelid=1593016022155    |  
 | Gemeindeverzeichnis | https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html;jsessionid=D79376DD4ACD5FA8C8BAEDBD94DCD806.internet8741     |  
+
+Alle Daten beziehn sich auf die Jahre 2018 und 2017.
 
 ## Abhänigkeiten:
 Für den R-Code müssen folgende Bibliotheken installiert werden:
@@ -30,3 +33,9 @@ Um die Bibliotheken zu installieren kann der folgende Codesnipet ausgeführt wer
 ```Python
 pip3 install requierements.txt -r
 ```
+
+
+## Einschränkungen
+Bitte beachten Sie, dass diese Arbeit nicht perfekt ist. Alle Modelle die gefunden und implementiert wurden liefern valide Ergebnisse, sind jedoch keinesfalls die besten Modelle die existieren. Die Performance jedes einzelnen Modells hätte mit mehr Zeit und mit mehr Computerpower verbessert werden können. Jedoch soll diese Arbeit auch nicht zeigen, wie man das beste Modell implementiert. Das wäre ohnehin für die meisten Usecases nicht sinnvoll.
+Uns ging es viel mehr darum zu zeigen, dass das Kombinieren von Destatis-Daten und Immobilienscout-Daten sinnvoll ist und zu guten Vorhersageergebnissen führen kann. Des Weiteren wollten wir ein Gefühl dafür bekommen welcher Machine Learning Algorithmus am Besten für die vorhandene Datenbasis geeignet ist. Beide Anforderungen konnten wir unserer Meinung nach erfüllen und konnten darüber hinaus neue praxisrelevante Erkenntnisse gewinnen.
+
