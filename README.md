@@ -1,4 +1,4 @@
-# Data Science 1 Projekt
+# Data Science 1 - Datenvorhersage zur Bepreisung von Immobilien in Deutschland
 ### Von Julius Rubbe, Frederik Hering und Timo Wehner
 
 Die Übersicht über die Motivation, Vorgehensweise und Ergebnisse des Projektes können im [Projektbericht.pdf](https://github.com/juliusrubbe/DS_1/blob/master/Projektbericht.pdf) gefunden werden. Hier folgt jetzt eine Einführung in den Code.
