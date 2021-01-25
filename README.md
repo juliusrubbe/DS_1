@@ -1,5 +1,8 @@
 # Data Science 1 Projekt
 ### Von Julius Rubbe, Frederik Hering und Timo Wehner
+
+Die Übersicht über die Motivation, Vorgehensweise und Ergebnisse des Projektes können im [Projektbericht.pdf](https://github.com/juliusrubbe/DS_1/blob/master/Projektbericht.pdf) gefunden werden. Hier folgt jetzt eine Einführung in den Code.
+
 Eine Übersicht über die optimierten Algorithmen kann in Overview.ipynb gefunden werden. Hierbei ist auch unser Vorgehen genau beschrieben und jeweils der Code bereits ausgeführt - wodurch die Ergebnisse sofort in einer aufbereiten Form ersichtlich sind. 
 Im Verzeichnis data_preperation sind die Datenaufbereitungsskripte und die Datenbasis zu finden. Hier wurde R für die Implementierung verwendet, da wir ein technologieunabhängiges Team sind und R sich besonders gut für das Aufbereiten von Daten eignet.
 Da die Implementierung des genetischen Algorithmus komplex war, ist diese im Ordner Neural_network_optimization zu finden. Hier muss erwähnt werden, dass ein Großteil des Optimierers von https://github.com/harvitronix/neural-network-genetic-algorithm stammt.
@@ -36,6 +39,6 @@ pip3 install requierements.txt -r
 
 
 ## Einschränkungen
-Bitte beachten Sie, dass diese Arbeit nicht perfekt ist. Alle Modelle die gefunden und implementiert wurden liefern valide Ergebnisse, sind jedoch keinesfalls die besten Modelle die existieren. Die Performance jedes einzelnen Modells hätte mit mehr Zeit und mit mehr Computerpower verbessert werden können. Jedoch soll diese Arbeit auch nicht zeigen, wie man das beste Modell implementiert. Das wäre ohnehin für die meisten Usecases nicht sinnvoll.
+Bitte beachten Sie, dass diese Arbeit nicht perfekt ist. Alle Modelle die gefunden und implementiert wurden liefern valide Ergebnisse, sind jedoch keinesfalls die besten Modelle die existieren. Die Performance jedes einzelnen Modells hätte mit mehr Zeit und mit mehr Computerpower verbessert werden können. Jedoch soll diese Arbeit auch nicht zeigen, wie man das absolut beste Modell implementiert. Das wäre ohnehin für die meisten Usecases nicht sinnvoll.
 Uns ging es viel mehr darum zu zeigen, dass das Kombinieren von Destatis-Daten und Immobilienscout-Daten sinnvoll ist und zu guten Vorhersageergebnissen führen kann. Des Weiteren wollten wir ein Gefühl dafür bekommen welcher Machine Learning Algorithmus am Besten für die vorhandene Datenbasis geeignet ist. Beide Anforderungen konnten wir unserer Meinung nach erfüllen und konnten darüber hinaus neue praxisrelevante Erkenntnisse gewinnen.
 
